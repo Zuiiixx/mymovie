@@ -70,7 +70,7 @@ function EmbedPlayer(props: EmbedPlayerProps) {
       seasonWithEpisodes.map((res: AxiosResponse<ISeason>) => res.data),
     );
     handleSetIframeUrl(
-      `https://vidsrc.cc/v2/embed/anime/tmdb${id}/1/sub?autoPlay=false`,
+      `https://vidsrcme.ru/v2/embed/anime/tmdb${id}/1/sub?autoPlay=false`,
     );
   };
 
