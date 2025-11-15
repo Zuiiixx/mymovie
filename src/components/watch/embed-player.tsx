@@ -48,7 +48,7 @@ function EmbedPlayer(props: EmbedPlayerProps) {
 
   const handleChangeEpisode = (episode: IEpisode): void => {
     const { show_id: id, episode_number: eps } = episode;
-    handleSetIframeUrl(`https://vidsrc.cc/v2/embed/anime/tmdb${id}/${eps}/sub`);
+    handleSetIframeUrl(`https://vidsrcme.ru/v2/embed/anime/tmdb${id}/${eps}/sub`);
   };
 
   const handleAnime = async (movieId: string) => {
